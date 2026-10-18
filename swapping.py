@@ -1,0 +1,9 @@
+x=eval(input("Enter a number"))
+y=eval(input("Enter another number"))
+print("Value of x is=",x)
+print("Value of y is=",y)
+x=x+y
+y=x-y
+x=x-y
+print("After swapping x=",x)
+print("After swappin y=",y)
