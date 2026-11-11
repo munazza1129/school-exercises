@@ -1,0 +1,6 @@
+secret=7
+guess=int(input("Enter a number: "))
+while guess != secret:
+    print("Wrong answer!")
+    guess=int(input("Try again: "))
+print("Correct answer.")
